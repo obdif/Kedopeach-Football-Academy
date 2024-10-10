@@ -21859,8 +21859,14 @@ button,
   font-size: 50px;
 }
 
-
-
+@media (max-width: 900px) {
+  .teamsection .teamgrid{
+    display: flex;
+    flex-direction: column-reverse;
+    /* grid-template-columns: auto; */
+    gap: 10px;
+  }
+}
 
 /* ===================== HOME NEWSLETTER ====== */
 .rts-newsletter-section {
